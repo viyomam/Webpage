@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "viyomam",
+    "public": "web",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
