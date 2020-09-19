@@ -1401,6 +1401,31 @@ h5.small-title {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+
+
+.toTop {
+	text-decoration: none;
+	position: fixed;
+	bottom: 110px;
+	right: 3%;
+	overflow: hidden;
+	z-index: 999; 
+    width: 40px;
+    height: 40px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/chat icon.png") no-repeat 0px 0px;
+}
+.toTopHover {
+    width: 40px;
+    height: 40px;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+
 /*-- //bottom-to-top --*/
 
 
@@ -1751,6 +1776,13 @@ h5.small-title {
         width: 47%;
         padding: 55px 50px;
     }
+	#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 24px;
+	right: -4%;
+	}
 }
 @media(max-width: 800px){
     .logo {
