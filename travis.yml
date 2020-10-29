@@ -1,0 +1,4 @@
+script:
+  - npm run build:config # Build src/config.js (environment specific client config)
+  - npm run lint # Check for lint
+  - npm run deploy # Deploy to Firebase
