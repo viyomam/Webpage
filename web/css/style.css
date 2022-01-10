@@ -350,10 +350,9 @@ nav a:hover:after {
     width: 100%;
 }
 .agileits-banner-info h3 {
-    color: #fff;
+    color: #fdfdfd;
     font-size: 70px;
     letter-spacing: 4px;
-    text-transform: uppercase;
 }
 .agileits-banner-info {
     text-align: center;
